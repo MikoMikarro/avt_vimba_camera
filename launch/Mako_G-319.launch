@@ -14,7 +14,7 @@
     <arg name="guid" value="$(arg guid)"/>
     <arg name="camera_info_url" value="$(arg camera_info_url)"/>
     <arg name="acquisition_rate" value="$(arg acquisition_rate)"/>
-    <arg name="acquisition_rate_enable" default="$(arg acquisition_rate_enable)"/>
+    <arg name="acquisition_rate_enable" value="$(arg acquisition_rate_enable)"/>
 
     <!-- Params specific to Mako G-319 -->
     <arg name="pixel_format" value="BayerRG8"/>
