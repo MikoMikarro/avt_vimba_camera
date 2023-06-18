@@ -319,7 +319,7 @@ double AvtVimbaCamera::getTimestamp()
 double AvtVimbaCamera::getDeviceTemp()
 {
   double temp = -1.0;
-  if (setFeatureValue("DeviceTemperatureSelector", "MainBoard") == VmbErrorSuccess)
+  if (setFeatureValue("DeviceTemperatureSelector", "Mainboard") == VmbErrorSuccess)
   {
     getFeatureValue("DeviceTemperature", temp);
   }
